@@ -1,0 +1,18 @@
+﻿<Window x:Class="Lab_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Background="#37000000">
+        <TextBox Margin="53,79,290,207" Name="tbN" BorderThickness="3"></TextBox>
+        <Label Content="Количество элементов:" Margin="53,47,0,238" HorizontalAlignment="Left" Width="162" FontWeight="Bold" FontStyle="Italic"></Label>
+        <Label Content="Результат:" Margin="334,12,81,269" FontWeight="Bold" FontStyle="Italic"></Label>
+        <ListBox Margin="266,47,12,12" Name="lbMain" BorderThickness="3"></ListBox>
+        <Button Content="Расчёт" Height="28" HorizontalAlignment="Left" Margin="12,128,0,0" Name="button1" Click="btnbutton1_Click" VerticalAlignment="Top" Width="105" BorderThickness="3" FontStyle="Italic" FontWeight="Bold" />
+        <Button Content="Расчёт 2" Height="28" HorizontalAlignment="Left" Margin="12,171,0,0" Name="button2" Click="btnbutton2_Click" VerticalAlignment="Top" Width="105" BorderThickness="3" FontWeight="Bold" FontStyle="Italic" />
+        <Button Content="Сохранить" Height="28" HorizontalAlignment="Left" Margin="12,214,0,0" Name="button3" Click="btnbutton3_Click" VerticalAlignment="Top" Width="105" BorderThickness="3" FontWeight="Bold" FontStyle="Italic" />
+        <Button Content="Выход" Height="28" HorizontalAlignment="Left" Margin="78,257,0,0" Name="button4" Click="btnbutton4_Click" VerticalAlignment="Top" Width="105" BorderThickness="3" FontWeight="Bold" FontStyle="Italic" />
+        <Button Content="Расчёт 3" Height="28" HorizontalAlignment="Left" Margin="142,128,0,0" Name="button5" Click="btnbutton5_Click" VerticalAlignment="Top" Width="105" BorderThickness="3" Visibility="Visible" ClickMode="Release" FlowDirection="LeftToRight" FontWeight="Bold" FontStyle="Italic" />
+        <Button Content="Расчёт 4" Height="28" HorizontalAlignment="Left" Margin="142,171,0,0" Name="button6" Click="btnbutton6_Click" VerticalAlignment="Top" Width="105" BorderThickness="3" FontWeight="Bold" FontStyle="Italic" />
+        <Button Content="Расчёт 5" Height="28" HorizontalAlignment="Left" Margin="142,214,0,0" Name="button7" Click="btnbutton7_Click" VerticalAlignment="Top" Width="105" BorderThickness="3" FontWeight="Bold" FontStyle="Italic" />
+    </Grid>
+</Window>
